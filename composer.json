@@ -1,6 +1,6 @@
 {
-    "name": "kim/defender",
-    "description": "Fend off spam bots by using randomized input names / honeypots.",
+    "name": "melvintehu/laravel-spam-protection",
+    "description": "Fend off spam bots by using randomized input names / honeypots. Credits go to thomastkim.",
     "keywords": [
         "laravel",
         "php",
@@ -11,9 +11,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Thomas Kim",
-            "email": "thomas@thomastkim.com",
-            "homepage": "http://thomastkim.com"
+            "name": "Melvintehu",
+            "email": "informatie@mentechmedia.nl",
+            "homepage": "https://mentechmedia.nl"
         }
     ],
     "require": {
@@ -21,6 +21,7 @@
         "illuminate/session": "~5.0",
         "illuminate/validation": "~5.0",
         "illuminate/view": "~5.0",
+        "Illuminate/Support/HtmlString": "~5.1",
         "php" : ">=5.4.0"
     },
     "require-dev": {

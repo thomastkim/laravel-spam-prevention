@@ -43,7 +43,7 @@ class DefenderHtmlGenerator implements DefenderHtmlGeneratorContract
             $html .= '<input type="' . $this->getRandomType() . '" name="' . $token . '" style="' . $this->getRandomStyling() . '">';
         }
 
-        return new Expression($html);
+        return new HtmlString($html);
     }
 
     /**
